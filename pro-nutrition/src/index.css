@@ -1,0 +1,80 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  text-align: center;
+}
+
+.foodbox-main{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  margin:40px auto ;
+  border: 1px solid rgba(255, 255, 255, 0.132);
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: #393838a0;
+}
+
+.foodbox-main-left,.foodbox-main-right{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.foodbox-main-left{
+  width: 60%;
+  margin-right: 50px;
+}
+
+.foodbox-main-right{
+  width: 40%;
+}
+
+input{
+  height: 30px;
+  outline: none;
+  border: none;
+}
+
+.add{
+  height: 32px;
+  width: 30px;
+  border: none;
+  background-color: #7271714c;
+  color: rgba(255, 255, 255, 0.785);
+}
+
+.foodbox-main-left>img{
+  width: 150px;
+  height: 120px;
+  border-radius: 5px;
+}
+
+h2{
+  font-size: 20px;
+  color: #f7f7f7b0;
+  font-weight: 500;
+}
+
+h4+button{
+  padding: 5px;
+}
+
+.reset,.add{
+  cursor: pointer;
+
+}
